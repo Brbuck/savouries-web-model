@@ -2,14 +2,14 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
-import Services from "./pages/Services";
+import About from "./pages/About";
 import Teste from "./pages/Teste";
 
 function Routers() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/servicos" element={<Services />} />
+      <Route path="/quem-somos" element={<About />} />
       <Route path="/teste" element={<Teste />} />
     </Routes>
   );

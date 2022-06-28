@@ -23,7 +23,7 @@ function Home() {
         }
         link={"Converse com a gente"}
       />
-      <section className='widget'>
+      <section className='section-home-container'>
         <h1>Comemorar ficou mais importante do que nunca!</h1>
         <p>
           O mundo aprendeu a valorizar a vida, as pessoas e a importância de
