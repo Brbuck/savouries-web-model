@@ -3,6 +3,7 @@ import "./styles.scss";
 
 import { Link } from "react-router-dom";
 import { List } from "phosphor-react";
+import Logo from "../../assets/icons8-coxinha-64.png";
 
 function Header() {
   const [menu, setMenu] = useState(false);
@@ -13,11 +14,9 @@ function Header() {
 
   return (
     <header className="header">
-      <span>
-        <Link to="/">
-          {/* <GiSittingDog /> */}
-        </Link>
-      </span>
+      <Link to="/" className="logo">
+        <img src={Logo} />
+      </Link>
       <nav
         className={menu ? "nav-new-header active" : "nav-new-header"}
         onClick={togleShowMenu}
@@ -29,7 +28,7 @@ function Header() {
         <Link to="/contato">Fale Conosco</Link>
       </nav>
       <span className="menu-mobile">
-      <List size={36} color="#26352e" onClick={togleShowMenu} />
+        <List size={36} color="#c6eddb" onClick={togleShowMenu} />
       </span>
     </header>
   );
