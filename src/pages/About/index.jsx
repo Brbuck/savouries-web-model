@@ -5,8 +5,8 @@ function About() {
   return (
     <div className="wrapper-about">
       <div className="image">Nossa História</div>
-      <div className="container-one">
-        <div className="section-one">
+      <div className="container-about">
+        <div className="section-about-container">
           <div>
             <h3>Sobre Nós</h3>
             <p>
@@ -36,7 +36,7 @@ function About() {
             </p>
           </div>
         </div>
-        <section className="section-about-container">
+        <section className="section-about">
           <h1>Salgados Maravilha na Empresa</h1>
           <p>
             Muitos de nós passam os dias no trabalho e acabamos convivendo anos
