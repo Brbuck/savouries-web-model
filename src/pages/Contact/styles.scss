@@ -1,0 +1,94 @@
+.container-contact {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 5rem 2rem;
+    background: url(../../assets/gift-g16b944a04_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+    
+
+    @media (max-width: 630px) {
+        grid-template-columns: 1fr;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+        color: #eef0e4;
+        @media (max-width: 530px) {
+            font-size: 1.2rem;
+        }
+    }
+    p {
+        text-align: center;
+        margin: 0.5rem 0;
+        color: #d2c3be;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 1.1rem;
+        color: #e36515;
+    }
+
+    a {
+        width: 100%;
+        max-width: 18rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        padding: 0.1rem 0.5rem;
+        border-radius: 25px;
+        margin: 1rem auto;
+        background-color: #009c58;
+        color: #fff;
+
+        @media (max-width: 410px) {
+            font-size: 0.88rem;
+        }
+    }
+
+    .email {
+        width: 100%;
+        max-width: 18rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0.4rem;
+        background-color: #00a6ff;
+
+        @media (max-width: 410px) {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+.google-map-code {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px 10px 30px;
+    //background-color: #f8f8f8;
+
+    @media (max-width: 510px) {
+        padding: 1rem;
+    }
+
+    h3 {
+        margin: 10px 0px;
+        color: var(--color-black);
+
+        @media (max-width: 510px) {
+            font-size: 1rem;
+        }
+    }
+}

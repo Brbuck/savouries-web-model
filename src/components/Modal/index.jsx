@@ -11,7 +11,6 @@ function Modal({ showmodal, togleModal }) {
     >
       <div className="container-modal" onClick={togleModal}>
         <div className="close">
-          <span></span>
           <span>X</span>
         </div>
         <a href="tel:1148000000">
