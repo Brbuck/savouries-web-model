@@ -3,7 +3,7 @@ import './styles.scss';
 
 import Swiper from "../../components/Swiper";
 import ForYou from "../../components/Menu";
-import CenterBranded from "../../Components/CenterBranded";
+import CenterBranded from "../../components/CenterBranded";
 
 import { Data } from "./DataServices";
 
