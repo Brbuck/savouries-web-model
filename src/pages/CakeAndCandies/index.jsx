@@ -4,13 +4,13 @@ import "./styles.scss";
 import Products from "../../components/Products";
 import { Data } from "./Data";
 
-function Savouries() {
+function CakeAndCandies() {
   return (
-    <div className="savouries-container">
-      <div className="image">Nossas Maravilhas Salgadas</div>
+    <div className="cake-and-candies-container">
+      <div className="image">Nossas Maravilhas de Doces</div>
       <Products data={Data} />
     </div>
   );
 }
 
-export default Savouries;
+export default CakeAndCandies;

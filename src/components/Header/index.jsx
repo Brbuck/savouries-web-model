@@ -24,7 +24,7 @@ function Header() {
         <Link to="/">Início</Link>
         <Link to="/quem-somos">Quem Somos</Link>
         <Link to="/salgados">Salgados</Link>
-        <Link to="/kit-festas">Kit Festas</Link>
+        <Link to="/bolos-doces">Bolos & Doces </Link>
         <Link to="/contato">Fale Conosco</Link>
       </nav>
       <span className="menu-mobile">
