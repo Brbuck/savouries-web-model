@@ -2,7 +2,9 @@ import React from "react";
 import "./styles.scss";
 
 import { WhatsappLogo } from "phosphor-react";
-import LogoIfood from '../../assets/icons8-ifood-48.png'
+import LogoIfood from "../../assets/icons8-ifood-48.png";
+
+import Pdf from "../../assets/teste.pdf";
 
 function Products({ data }) {
   return (
@@ -38,6 +40,9 @@ function Products({ data }) {
             </div>
           </div>
         ))}
+        <a href={Pdf} target="_blank" rel="noreferrer" className='menu'>
+          Clique aqui e confira nosso cardápio completo
+        </a>
       </div>
     </div>
   );

@@ -1,10 +1,12 @@
 import React from "react";
 import "./styles.scss";
 
+import Banner from '../../components/Banner'
+
 function About() {
   return (
     <div className="wrapper-about">
-      <div className="image">Nossa História</div>
+      <Banner title={"Nossa História"} />
       <div className="container-about">
         <div className="section-about-container">
           <div>

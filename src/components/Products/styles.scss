@@ -81,4 +81,22 @@
             }
         }
     }
+    .menu {
+        width: 100%;
+        max-width: 45rem;
+        display: block;
+        text-align: center;
+        font-size: 1.2rem;
+        padding:  0.5rem;
+        border-radius: 5px;
+        
+        text-transform: uppercase;
+        margin: 1.6rem auto;
+        background-color: #8e3122;
+        color: #ffa500;
+  
+        @media (max-width: 510px) {
+          font-size: 1rem;
+        }
+      }
 }

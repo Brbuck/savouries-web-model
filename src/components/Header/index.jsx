@@ -28,7 +28,7 @@ function Header() {
         <Link to="/contato">Fale Conosco</Link>
       </nav>
       <span className="menu-mobile">
-        <List size={36} color="#c6eddb" onClick={togleShowMenu} />
+        <List size={36} color="#f7c093" onClick={togleShowMenu} />
       </span>
     </header>
   );

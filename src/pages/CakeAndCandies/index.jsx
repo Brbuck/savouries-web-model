@@ -1,13 +1,14 @@
 import React from "react";
 import "./styles.scss";
 
+import Banner from "../../components/Banner";
 import Products from "../../components/Products";
 import { Data } from "./Data";
 
 function CakeAndCandies() {
   return (
     <div className="cake-and-candies-container">
-      <div className="image">Nossas Maravilhas de Doces</div>
+      <Banner title={"Nossas Maravilhas de Doces"} />
       <Products data={Data} />
     </div>
   );

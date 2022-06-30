@@ -14,7 +14,7 @@ function Home() {
       <ForYou
         data={Data}
         title={"Conheça nossas maravilhas"}
-        link={"Clique aqui para baixar nosso cardápio de encomendas"}
+        link={"Clique aqui e confira nosso cardápio de encomendas"}
       />
       <CenterBranded
         title={"Quer Fazer Uma Encomenda?"}
